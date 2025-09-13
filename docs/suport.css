@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #333;
+  direction: rtl;
+  line-height: 1.8;
+}
+
+
+header {
+  background: linear-gradient(to left, #222, #444);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: #ccc;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+
+.contact-info {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.contact-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+
+.faq {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.faq h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.faq ul {
+  list-style: none;
+  padding: 0;
+}
+
+.faq li {
+  background-color: #f9f9f9;
+  border-left: 4px solid #222;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  color: #444;
+}
+
+
+.contact-form {
+  padding: 50px 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #444;
+}
+
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .contact-info h2,
+  .faq h2,
+  .contact-form h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .contact-form button {
+    font-size: 0.9rem;
+  }
+}
+/* لینک‌های اصلی سایت */
+a {
+  color: #f5f5f5;
+  font-weight: 600;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #222, #444);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* حالت hover */
+a:hover {
+  background: linear-gradient(135deg, #f30004, #ff0000);
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.5);
+}
+
+/* حالت فعال یا انتخاب‌شده */
+a:active {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
