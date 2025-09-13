@@ -159,7 +159,7 @@ footer {
     font-size: 0.9rem;
   }
 }
-/* لینک‌های اصلی سایت */
+
 a {
   color: #f5f5f5;
   font-weight: 600;
@@ -170,7 +170,7 @@ a {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* حالت hover */
+
 a:hover {
   background: linear-gradient(135deg, #f30004, #ff0000);
   color: #000;
@@ -178,7 +178,32 @@ a:hover {
   box-shadow: 0 6px 14px rgba(0,0,0,0.5);
 }
 
-/* حالت فعال یا انتخاب‌شده */
+
 a:active {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  font-size: 16px;
+  padding: 12px 18px;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+
+  a {
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+  }
 }
