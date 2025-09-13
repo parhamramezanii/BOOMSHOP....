@@ -148,3 +148,28 @@ a:hover {
 a:active {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
+
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  font-size: 16px;
+  padding: 12px 18px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+
+  a {
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+  }
+}
